@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page Tests TempHomePage Snapshot Test 1`] = `
+<div>
+  <span>
+    16.7.0
+  </span>
+  <h1>
+    Toolboxx
+  </h1>
+</div>
+`;

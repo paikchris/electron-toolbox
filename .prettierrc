@@ -1,0 +1,7 @@
+{
+	"printWidth": 100,
+	"parser": "babylon",
+	"prettier.tabWidth": 4,
+	"prettier.eslintIntegration": true
+}
+ 

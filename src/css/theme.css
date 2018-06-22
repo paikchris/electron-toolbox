@@ -1,0 +1,116 @@
+body {
+    margin: 0
+}
+
+/* REACT ROUTER LINK STYLING */
+
+a.rL {
+    color: inherit;
+    text-decoration: inherit;
+    box-sizing: inherit;
+}
+
+.appContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #293742;
+}
+
+.bodyContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 16px;
+}
+
+.projectViewContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+}
+
+/* PROJECT PAGE BUTTON BAR */
+
+#projectPageMenu {
+    margin-bottom: 24px;
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+}
+
+#projectCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+/* PROJECT CARD CSS */
+
+.projectCard {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+}
+
+.projectCardDetails {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 4px;
+}
+
+.projectCardDetails span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.projectCardDetails span.vagrantHeaderLabel.active {
+    color: #62D96B
+}
+
+.projectCardDetails span.vagrantHeaderLabel.inactive {
+    color: #FF6E4A
+}
+
+.projectCardDetails span.vagrantHeaderLabel.undefined {
+    color: #FFC940
+}
+
+.projectCard svg {
+    vertical-align: text-bottom;
+}
+
+.projectCard .vagrantInfoContainer {
+    margin-top: 16px;
+}
+
+.projectCard .vagrantInfoContainer .vagrantHeaderLabel {
+    margin-top: 16px;
+    vertical-align: middle
+}
+
+.projectCreateContainer {
+    width: 500px;
+}
+
+#newProjectCheckboxContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding: 12px;
+}
+
+.VagrantOptionsContainer {
+    /* margin-top: 18px; */
+    padding: 12px;
+}
