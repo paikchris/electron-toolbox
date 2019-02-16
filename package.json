@@ -57,6 +57,8 @@
 			"window": true
 		},
 		"collectCoverage": true,
-		"setupFiles": ["./test/setupTests.js"]
+		"setupFiles": [
+			"./test/setupTests.js"
+		]
 	}
 }
